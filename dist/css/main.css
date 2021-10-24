@@ -1,3 +1,45 @@
+.button-line {
+  width: 37px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: yellow;
+  transition: all 0.5s ease-out; }
+  .button-line:hover {
+    background: #ff7b00;
+    text-shadow: 0 0 90px black, 0 0 80px black, 0 0 70px black, 0 0 60px black, 0 0 50px black, 0 0 40px black, 0 0 30px black, 0 0 20px black, 0 0 10px black; }
+
+#close {
+  visibility: hidden; }
+
+.menu-button {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: crosshair;
+  transition: all 0.5s ease-out;
+  text-align: center;
+  color: yellow;
+  padding: 8px;
+  border-radius: 0 20px 0 20px; }
+  .menu-button:hover {
+    color: #ff7b00;
+    text-shadow: 0 0 90px black, 0 0 80px black, 0 0 70px black, 0 0 60px black, 0 0 50px black, 0 0 40px black, 0 0 30px black, 0 0 20px black, 0 0 10px black; }
+  .menu-button.close {
+    transform: rotate(180deg);
+    background-color: rgba(255, 255, 255, 0); }
+    .menu-button.close #menu-name {
+      display: none; }
+    .menu-button.close .btn-line1 {
+      transform: rotate(45deg) translate(3px, -2px); }
+    .menu-button.close .btn-line2 {
+      display: none; }
+    .menu-button.close .btn-line3 {
+      transform: rotate(-45deg) translate(7px, -4px); }
+    .menu-button.close #close {
+      visibility: visible;
+      transform: rotate(180deg); }
+
 html {
   font-size: 16px; }
 

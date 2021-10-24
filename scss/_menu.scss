@@ -1,0 +1,58 @@
+
+.button-line {
+  width: 37px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: $third-color;
+  @include easeOut;
+  
+  &:hover{
+    background:rgb(255, 123, 0);
+    text-shadow: $heavy-shadow;
+  }
+
+  
+}
+
+#close{
+  visibility: hidden;
+}
+
+.menu-button {
+  position: absolute;
+  z-index: 3;
+  right:35px;
+  top: 35px;
+  cursor: crosshair;
+  @include easeOut;
+  text-align: center;
+  color: $third-color;
+  padding: 8px;
+  border-radius: 0 20px 0 20px;
+
+  &:hover{
+    color:rgb(255, 123, 0);
+    text-shadow: $heavy-shadow;
+  }
+
+  &.close{
+    transform: rotate(180deg);
+    background-color:rgba(255, 255, 255, 0);
+    #menu-name{
+      display:none;
+    }
+    .btn-line1{
+      transform: rotate(45deg) translate(3px, -2px);
+    }
+    .btn-line2{
+      display:none;
+    }
+    .btn-line3{
+      transform: rotate(-45deg) translate(7px, -4px);
+    }
+    #close{
+      visibility: visible;
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -7,9 +7,9 @@
 ## Technologies Used
 
 * JavaScript
+* JQuery
 * SCSS
 * NPM
-* _here_
 
 ## Description
 
