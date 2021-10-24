@@ -3,7 +3,7 @@ $secondary-color: rgb(127, 253, 77);
 $third-color: yellow;
 $name-color: rgb(253, 68, 182);
 $show-home-bg: true;
-$home-bg: url(../img/purpleorange.jpeg);
+$home-bg: url(../img/2.jpeg);
 $heavy-shadow: 
   0 0 90px black,
   0 0 80px black,
@@ -17,7 +17,7 @@ $heavy-shadow:
 
 
 @mixin easeOut{
-  transition: all 0.5s ease-out;
+  transition: all 0.2s ease-out;
 }
 @mixin background{
   @if $show-home-bg {
@@ -26,7 +26,7 @@ $heavy-shadow:
       background-attachment: fixed;
       background-size: cover;
       background-position:50%;
-      background-color: rgba(5, 77, 124, 0.473);
+      background-color: rgba(3, 24, 37, 0.534);
       background-blend-mode:color-burn;
     }
   }

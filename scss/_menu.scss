@@ -7,15 +7,13 @@
   @include easeOut;
   
   &:hover{
-    background:rgb(255, 123, 0);
+    background:$secondary-color;
     text-shadow: $heavy-shadow;
   }
-
-  
 }
 
 #close{
-  visibility: hidden;
+  display:none;
 }
 
 .menu-button {
@@ -28,10 +26,9 @@
   text-align: center;
   color: $third-color;
   padding: 8px;
-  border-radius: 0 20px 0 20px;
 
   &:hover{
-    color:rgb(255, 123, 0);
+    color:$secondary-color;
     text-shadow: $heavy-shadow;
   }
 
@@ -51,8 +48,51 @@
       transform: rotate(-45deg) translate(7px, -4px);
     }
     #close{
-      visibility: visible;
+      display: block;
       transform: rotate(180deg);
     }
   }
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+
+  &.show {
+    visibility: visible;
+  }
+
+  .menu-nav{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(65, 0, 187, 0.507));
+    transform: translate3d(0, 100%, 0);
+    @include easeOut;
+
+    &.show{
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .nav-item{
+    margin-top:10%;
+    font-size: 2rem;
+    list-style-type: none;
+    @include easeOut;
+
+    &.show{
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
 }
