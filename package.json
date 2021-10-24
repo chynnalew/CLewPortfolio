@@ -1,0 +1,14 @@
+{
+  "name": "clew-portfolio",
+  "version": "1.0.0",
+  "description": "updated october 2021",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Chynna Lew",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
