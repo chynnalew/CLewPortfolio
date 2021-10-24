@@ -4,3 +4,10 @@ body{
   background: $primary-color;
   color: white;
 }
+i{
+  color: white;
+  margin: 10px;
+}
+i:hover{
+  color:pink;
+}

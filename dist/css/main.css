@@ -1,3 +1,10 @@
 body {
   background: grey;
   color: white; }
+
+i {
+  color: white;
+  margin: 10px; }
+
+i:hover {
+  color: pink; }
