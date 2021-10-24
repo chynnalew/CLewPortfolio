@@ -1,10 +1,60 @@
+html {
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box; }
+
 body {
-  background: grey;
-  color: white; }
+  background: black;
+  color: white;
+  height: 100%;
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 1.5; }
+  body#background-img {
+    background-image: url(../dist/img/backg.jpeg);
+    background-attachment: fixed; }
 
 i {
-  color: white;
-  margin: 10px; }
+  color: #7ffd4d;
+  margin-top: 1rem;
+  padding: 0.4rem; }
 
 i:hover {
-  color: pink; }
+  color: #003cff;
+  transition: all 0.5s ease-out; }
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400; }
+  h1.large-heading, h2.large-heading, h3.large-heading {
+    font-size: 6rem; }
+  h1.small-heading, h2.small-heading, h3.small-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(5, 5, 5, 0.5); }
+
+a {
+  color: yellow;
+  text-decoration: none; }
+
+a:hover {
+  color: #ff7b00;
+  transition: all 0.5s ease-out; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+.name {
+  color: #fd44b6;
+  text-shadow: 0px 0px 30px #902be2; }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+  main.home {
+    overflow: hidden; }
+    main.home h1 {
+      margin-top: 20vh; }
