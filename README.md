@@ -28,4 +28,8 @@
 
 ## License
 
+MIT 2021
+
 ## Contact Information
+
+* <chynnalew@yahoo.com>
