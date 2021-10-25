@@ -73,6 +73,24 @@
 html {
   font-size: 16px; }
 
+.about {
+  text-align: center;
+  background-color: black; }
+  .about .large-heading {
+    color: #7ffd4d; }
+  .about img {
+    height: 300px;
+    border-radius: 50px; }
+  .about i {
+    color: #fd44b6;
+    font-size: 50px; }
+  .about i:hover {
+    color: #fd44b6; }
+  .about h2 {
+    padding: 10px; }
+  .about h3 {
+    font-size: 1.2em; }
+
 * {
   box-sizing: border-box; }
 

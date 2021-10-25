@@ -5,6 +5,32 @@ html{
   font-size: 16px;
 }
 
+.about{
+  text-align: center;
+  background-color: black;
+
+  .large-heading{
+    color: $secondary-color;
+  }
+  img{
+    height:300px;
+    border-radius: 50px;
+  }
+  i{
+    color: $name-color;
+    font-size: 50px;
+  }
+  i:hover{
+    color: $name-color;
+  }
+  h2{
+    padding: 10px;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+}
+
 *{
   box-sizing: border-box;
 }
