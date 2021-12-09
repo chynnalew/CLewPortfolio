@@ -7,24 +7,17 @@
 ## Technologies Used
 
 * JavaScript
-* JQuery
 * SCSS
 * NPM
 
 ## Description
 
-## Setup/Installation Requirements
+A portfolio created to show off coding projects
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+No bugs known at this time
 
 ## License
 
