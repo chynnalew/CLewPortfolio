@@ -9,7 +9,7 @@
   },
   "author": "Chynna Lew",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {        
     "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1"
   }

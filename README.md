@@ -12,7 +12,10 @@
 
 ## Description
 
-A portfolio created to show off coding projects
+A portfolio created to show off coding projects.
+Run the command "npm i" to install dependencies
+Run the command "npm run deploy" to deploy changes to gh-pages
+
 
 
 ## Known Bugs
