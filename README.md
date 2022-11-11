@@ -18,6 +18,9 @@ Run the command "npm i" to install dependencies.
 <br>
 To open locally, download this repository and open dist/index.html in the browser
 <br>
+To track and compile changes in SCSS to CSS, run the command "sass --watch scss/main.scss:dist/css/main.css"
+<br>
+<br>
 This project uses NPM dependencies to deploy to github pages. 
 <br>
 Configure remote repository location in webpack.config.js line 11 'public path'
