@@ -15,6 +15,10 @@ $heavy-shadow:
   0 0 20px black,
   0 0 10px black;
 
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 786px;
+$laptop-breakpoint: 1024px;
+$desktop-breakpoint: 1200px;
 
 @mixin easeOut{
   transition: all 0.2s ease-out;
