@@ -74,14 +74,14 @@ header{
 }
 
 main{
-  padding: 4rem;
+  padding: 2.5rem;
   height: 100%;
-
+  
   &.home{
     overflow: hidden;
+    max-width: 70vw;
     h1{
       margin-top: 20vh;
-      max-width: 70vw;
     }
   }
 }
@@ -106,10 +106,10 @@ main{
     color: $name-color;
   }
   h2{
-    padding: 10px;
+    padding: .8rem;
   }
   h3{
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 }
 
@@ -131,17 +131,16 @@ main{
   }
   .column {
     display: inline-block;
-    margin: auto;
     margin: 20px;
     font-size: medium;
-    width: 400px;
+    width: 300px;
     height:450px;
     border-bottom: 3px solid grey;
     padding: 5px;
   }
   .thumb {
     height: 230px;
-    width: 400px;
+    width: 300px;
     object-fit: contain;
   }
 
@@ -157,3 +156,17 @@ main{
   background-color: black;
 }
 
+@media (max-width: $tablet-breakpoint){
+    h1.large-heading{
+        font-size: 4.3rem
+    }
+    .projects{
+        padding: 1.25rem
+    }
+    .about{
+        h2.large-heading{
+            font-size:5rem;
+            line-height: 5rem
+        }
+    }
+}
