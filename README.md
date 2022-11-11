@@ -13,8 +13,17 @@
 ## Description
 
 A portfolio created to show off coding projects.
-Run the command "npm i" to install dependencies
-Run the command "npm run deploy" to deploy changes to gh-pages
+<br>
+Run the command "npm i" to install dependencies.
+<br>
+To open locally, download this repository and open dist/index.html in the browser
+<br>
+This project uses NPM dependencies to deploy to github pages. 
+<br>
+Configure remote repository location in webpack.config.js line 11 'public path'
+<br>
+In the command "npm run deploy" to deploy changes to gh-pages
+
 
 
 
